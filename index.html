@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Parallax Using Rellax JS</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <section>
+        <div class="content">
+            <h1>
+                Parallax Shapes with Challenges
+            </h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit perferendis quos aperiam ad recusandae non, asperiores accusantium, suscipit voluptate ipsam placeat autem perspiciatis ab quaerat in fugit blanditiis maxime deleniti vel corporis excepturi nulla consectetur sed nemo! Illum, nisi expedita architecto eveniet esse eos, voluptatibus quidem tempore blanditiis atque fugit.
+            </p>
+            <button>Read More</button>
+        </div>
+        <img src="images/shape-1.png" class="part1 rellax" data-rellax-speed="5" alt="">
+        <img src="images/shape-2.png" class="part2 rellax" data-rellax-speed="5" alt="">
+        <img src="images/shape-3.png" class="part3 rellax" data-rellax-speed="8" alt="">
+        <img src="images/shape-4.png" class="part4 rellax" data-rellax-speed="5" alt="">
+        <img src="images/shape-5.png" class="part5 rellax" data-rellax-speed="10" alt="">
+        <img src="images/shape-6.png" class="part6 rellax" data-rellax-speed="4" alt="">
+        <img src="images/shape-7.png" class="part7 rellax" data-rellax-speed="6" alt="">
+        <img src="images/shape-8.png" class="part8 rellax" data-rellax-speed="5" alt="">
+        <img src="images/shape-9.png" class="part9 rellax" data-rellax-speed="5" alt="">
+    </section>
+
+
+    <section>
+        <h2 data-scroll>Learn Differnent Shapes</h2>
+        <p data-scroll>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ab saepe alias vitae. Neque enim quae ex autem reiciendis facilis, tempore tempora, nesciunt dolore omnis voluptatibus debitis nihil, asperiores molestias saepe totam laboriosam! Ea reprehenderit nulla ducimus quae eaque, rerum totam, quam debitis consequuntur animi quis provident repellat enim fugiat.
+        </p>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"></script>
+    <script>
+        var rellax = new Rellax('.rellax');
+        ScrollOut({
+            threshold: .6
+        })
+    </script>
+</body>
+</html>
